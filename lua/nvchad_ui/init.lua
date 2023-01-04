@@ -1,9 +1,9 @@
 local M = {}
 local config = require "nvchad_ui.config"
 
-M.statusline = function()
-  return require("nvchad_ui.statusline").run(config.statusline)
-end
+-- M.statusline = function()
+--   return require("nvchad_ui.statusline").run(config.statusline)
+-- end
 
 M.tabufline = function()
   return require("nvchad_ui.tabufline").run(config.tabufline)
